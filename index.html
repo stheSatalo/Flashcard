@@ -1,19 +1,40 @@
-body{
-    background-color: bisque;
-    font-family: Bai Jamjuree;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
-
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Flashcard</title>    
+</head>
+<body>
+    <main>
+        <section id="container">
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é JavaScript?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O JavaScript é uma linguagem de programação.
+                    </div>
+                </div>
+            </article>
+            <article class="cartao"></article>
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é o CSS?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        É uma linguagem de estilização.
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucratívos</p>
+    </footer>
+</body>
+</html>
