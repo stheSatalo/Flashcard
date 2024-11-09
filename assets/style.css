@@ -58,6 +58,7 @@ body {
 }
 
 .cartao__conteudo__resposta p {
+     transform: rotateY(180deg);
     color: var(--card-back-color);
     font-weight: 700;
 }
@@ -68,6 +69,7 @@ body {
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
+     transform: rotateY(180deg);
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
